@@ -14,11 +14,19 @@ header {
 footer {
     background-image: linear-gradient( to right ,yellow , rgb(255, 255, 132));
 }
-.email:hover {
+.nombre:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.apellido:hover {
     transform: scale(1.1);
     cursor: pointer;
 } 
 .password:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.email:hover {
     transform: scale(1.1);
     cursor: pointer;
 } 
@@ -39,7 +47,7 @@ footer {
 
 .cuentaContainer form {
     background-color: yellow;
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 .cuentaButton {
@@ -63,8 +71,39 @@ footer {
     color: white
 }
 
+.list-group-item {
+    margin: 3px;
+}
 
+.leyenda {
+    display: flex;
+    margin: 30px 600px;
+}
 
-.container-fluid {
-    z-index: 1;
+h6 {
+    display: flex;
+    margin: 30px 600px;
+    align-content: center;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.mapa {
+    display: flex;
+   justify-content: left;
+    margin: 50px;
+}
+span{
+    margin: 20px;
+}
+h4{
+    margin: 10px;
+}
+p{
+    margin-left: 20px;
+    display: flex;
 }
